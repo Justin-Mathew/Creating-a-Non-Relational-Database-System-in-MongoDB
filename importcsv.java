@@ -147,7 +147,7 @@ public class importcsv {
 		bReader.close();
 		writer.close();
 	}
-
+// function to read the csv file.
 	public static void main(String[] args) {
 
 		File file = new File("buildings.csv");

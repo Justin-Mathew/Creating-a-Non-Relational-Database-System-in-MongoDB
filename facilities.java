@@ -1,5 +1,5 @@
 package mongoDB;
-
+//  class to store features like bicycle facilities and shower facilities.
 public class facilities {
 	public int bicycleSpaces, hasShower;
 

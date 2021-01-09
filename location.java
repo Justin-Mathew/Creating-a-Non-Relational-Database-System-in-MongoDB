@@ -1,5 +1,5 @@
 package mongoDB;
-
+// class to store the location of the building.
 public class location {
 	public double Xcoordinates, Ycoordinates;
 	public String Location;

@@ -1,5 +1,5 @@
 package mongoDB;
-
+// class to store accessibility features of the building.
 public class accessibility {
 	
 	public String accessibilityType, accessibilityTypeDescp;

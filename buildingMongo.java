@@ -1,9 +1,10 @@
 package mongoDB;
-
+// main building class to store all the bulding data.
 public class buildingMongo {
 	public int censusYear, blockId, propertyId, basepropertyId, constructionYear, RefurbishedYear, numberFloors;
 	public String buildingName, streetAddress, suburb, preSpaceuse;
 
+// initializing accessibility location and facilities to create an embedded structure.
 	public accessibility Accessibility;
 	public location location;
 	public facilities Bicycle_Shower_Facilities;
