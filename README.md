@@ -2,6 +2,9 @@
 
 # Index:
 This repository holds Non-Relational Database System project.
+1. [Images](https://github.com/Justin-Mathew/Creating-a-Non-Relational-Database-System-in-MongoDB/tree/main/Images) Images used in readme file.
+2. [buildings](https://github.com/Justin-Mathew/Creating-a-Non-Relational-Database-System-in-MongoDB/blob/main/buildings.csv) Main CSV file.
+3. [Importcsv.java](https://github.com/Justin-Mathew/Creating-a-Non-Relational-Database-System-in-MongoDB/blob/main/importcsv.java) JAVA program to generate JSON file.
 
 # Objective:
 The objective is to create a Non-Relational database system in MongoDB.
@@ -33,13 +36,13 @@ import command.
 
 1. The structure of the database was created with the help of a java program.
 2. The building csv file was read and the values of each filed was loaded into
-appropriate objects.
-3. Four objects were created building object, accessibility object, location object and
-bicycle and shower facilities object.
+appropriate objects [Importcsv](https://github.com/Justin-Mathew/Creating-a-Non-Relational-Database-System-in-MongoDB/blob/main/importcsv.java).
+3. Four objects were created building object, accessibility object [accessibility](https://github.com/Justin-Mathew/Creating-a-Non-Relational-Database-System-in-MongoDB/blob/main/accessibility.java), location object [location](https://github.com/Justin-Mathew/Creating-a-Non-Relational-Database-System-in-MongoDB/blob/main/location.java) and
+bicycle and shower facilities object [facilities](https://github.com/Justin-Mathew/Creating-a-Non-Relational-Database-System-in-MongoDB/blob/main/facilities.java).
 4. All the objects were combined to the main building object in order to get a single
-main building object.
+main building object [buildingMongo](https://github.com/Justin-Mathew/Creating-a-Non-Relational-Database-System-in-MongoDB/blob/main/buildingMongo.java).
 5. Building object was then stored in an array list.
-6. With the help of GSON library the array list was converted into a json file.
+6. With the help of GSON library the array list was converted into a json file [GSON library](https://github.com/Justin-Mathew/Creating-a-Non-Relational-Database-System-in-MongoDB/blob/main/gson-2.6.2.jar).
 
 # Importing data to MongoDB:
 1. Generated the json file by runninig import csv file.
@@ -87,5 +90,11 @@ db.buildingcollection.find({"Accessibility.accessibilityRating": 3,"censusYear" 
 
 # Conclusion:
 Database in MongoDB was creating by generating a json file from csv file using java program. Json file was then imported into mongodb using the mongo import commands.Finally, queries were written to access data.
+
+# Contact me:
+| Contact Method | Links  |
+| --- | --- |
+| Email | justinmathew.cta@gmail.com |
+| LinkedIn | www.linkedin.com/in/thejustinmathew |
 
 
